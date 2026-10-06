@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\icon.ico" />
+    <None Remove="Images\pikachu.jpg" />
+    <None Remove="Images\pikachu.png" />
+    <None Remove="Sounds\correct.wav" />
+    <None Remove="Sounds\NhacNen.wav" />
+    <None Remove="Sounds\wrong.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icon.ico" />
+    <Resource Include="Images\pieces1.png" />
+    <Resource Include="Images\pieces2.png" />
+    <Resource Include="Images\pieces3.png" />
+    <Resource Include="Images\pieces4.png" />
+    <Resource Include="Images\pieces5.png" />
+    <Resource Include="Images\pieces6.png" />
+    <Resource Include="Images\pieces7.png" />
+    <Resource Include="Images\pieces8.png" />
+    <Resource Include="Images\pieces9.png" />
+    <Resource Include="Images\pieces10.png" />
+    <Resource Include="Images\pieces11.png" />
+    <Resource Include="Images\pieces12.png" />
+    <Resource Include="Images\pieces13.png" />
+    <Resource Include="Images\pieces14.png" />
+    <Resource Include="Images\pieces15.png" />
+    <Resource Include="Images\pieces16.png" />
+    <Resource Include="Images\pieces17.png" />
+    <Resource Include="Images\pieces18.png" />
+    <Resource Include="Images\pieces19.png" />
+    <Resource Include="Images\pieces20.png" />
+    <Resource Include="Images\pieces21.png" />
+    <Resource Include="Images\pieces22.png" />
+    <Resource Include="Images\pieces23.png" />
+    <Resource Include="Images\pieces24.png" />
+    <Resource Include="Images\pieces25.png" />
+    <Resource Include="Images\pieces26.png" />
+    <Resource Include="Images\pieces27.png" />
+    <Resource Include="Images\pieces28.png" />
+    <Resource Include="Images\pieces29.png" />
+    <Resource Include="Images\pieces30.png" />
+    <Resource Include="Images\pieces31.png" />
+    <Resource Include="Images\pieces32.png" />
+    <Resource Include="Images\pieces33.png" />
+    <Resource Include="Images\pieces34.png" />
+    <Resource Include="Images\pieces35.png" />
+    <Resource Include="Images\pieces36.png" />
+    <Content Include="Sounds\correct.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\NhacNen.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\wrong.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\pikachu.jpg" />
+  </ItemGroup>
+
+</Project>
